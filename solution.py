@@ -29,3 +29,4 @@ def main(input_dir, output_dir):
 if __name__ == "__main__":
     assert len(sys.argv) >= 3, f"Invalid number of arguments: {len(sys.argv)}"
     main(sys.argv[1], sys.argv[2])
+    print ("OK")
